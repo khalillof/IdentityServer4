@@ -1,0 +1,5 @@
+﻿Add-Migration InitialCreate  -Project IdentityServer4Demo -Context ApplicationDbContext
+Update-Database  -Project IdentityServer4Demo -Context ApplicationDbContext
+
+Add-Migration InitialCreate  -Project IdentityServer4Demo -Context ConfigurationDbContext
+Update-Database  -Project IdentityServer4Demo -Context ConfigurationDbContext
